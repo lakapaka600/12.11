@@ -5,7 +5,8 @@ static float Velocita(float sRuota, float dRuota)
     return km;
 }
 
-float sRuota, dRuota;
+float sRuota
+    float dRuota;
 
 
 while (!float.TryParse(Console.ReadLine(), out dRuota))
